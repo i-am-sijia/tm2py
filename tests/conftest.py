@@ -1,5 +1,7 @@
 """Shared fixtures for tests."""
 import os
+os.environ['GDAL_VERSION']="3.3.2"
+
 import sys
 from pathlib import Path
 
